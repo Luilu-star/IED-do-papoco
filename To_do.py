@@ -36,7 +36,7 @@ def montar_arquivo():  # Define uma função para salvar as tarefas em um arquiv
 
     if tarefas:  # Verifica se a lista 'tarefas' não está vazia
         with open(nome_arquivo, "w") as file:  # O open abre o arquivo no modo de escrita ("w") e o with garante o fechamento automático
-            for item in tarefas:  # Itera sobre cada elemento da lista 'tarefas'
+            for item in tarefas:  # Percorre por cada elemento da lista 'tarefas'
                 file.write(item + "\n")  # O método write escreve o valor 'item' no arquivo, seguido de uma nova linha
         print(f'Tarefas salvas no arquivo {nome_arquivo}!')  # Exibe uma mensagem confirmando a criação do arquivo
 
