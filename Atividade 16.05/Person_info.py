@@ -60,9 +60,8 @@ while True:
             print("Saindo...")
             break
 
+        case _:
+            print("Opção inválida")
 
 
 
-
-"""
-"""
