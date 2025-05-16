@@ -68,7 +68,7 @@ while True:  # Inicia um loop infinito que mantém o programa em execução até
         dia = input("Digite o dia (dd): ")  # Solicita ao usuário que insira o dia e armazena na variável
         mes = input("Digite o mês (mm): ")  # Solicita ao usuário que insira o mês e armazena na variável
         ano = input("Digite o ano (yy): ")  # Solicita ao usuário que insira o ano e armazena na variável
-        data_conc = f'{ano}-{mes}-{dia}'  # Formata a data de vencimento no formato 'yy-mm-dd' e armazena na variável
+        data_conc = f'{ano}-{mes}-{dia}'    # Formata a data de vencimento no formato 'yy-mm-dd' e armazena na variável
 
         # Chama a função `adicionar_tarefa` para adicionar a tarefa formatada com as datas à lista de tarefas
         adicionar_tarefa(f'{tarefa_text}, Data final: [{data_conc}]')
